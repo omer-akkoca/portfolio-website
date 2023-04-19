@@ -3,6 +3,7 @@ import Image from "next/image";
 import profileImage from "../public/images/developer-pic-2.jpg"
 import { useEffect, useRef } from "react";
 import { useInView, useMotionValue, useSpring } from "framer-motion";
+import { Skills } from "@/src/Layouts";
 
 const AnimatedNumbers = ({ value }) => {
     
@@ -77,6 +78,7 @@ const About = () => {
                             </div>
                         </div>
                     </div>
+                    <Skills/>
                 </Layout>
             </div>
         </>
