@@ -1,4 +1,4 @@
-import { Footer, Navbar } from '@/src/components'
+import { Navbar, Footer } from "../src/layouts"
 import '@/styles/globals.css'
 import { Montserrat } from "next/font/google"
 import Head from 'next/head'
