@@ -50,7 +50,6 @@ const Home = () => {
                 </Layout>
             </div>
             <HireMe/>
-            <Footer/>
         </main>
     )
 }
