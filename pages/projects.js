@@ -17,6 +17,8 @@ const FeaturedProjects = ({ type, title, summary, img, link, github }) => {
                     src={img}
                     alt={title}
                     className="w-full h-auto"
+                    priority
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
                 />
             </Link>
             <div className="w-1/2 flex flex-col items-start justify-between pl-6">
