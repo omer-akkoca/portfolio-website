@@ -5,7 +5,7 @@ export default function Document() {
     return (
         <Html>
             <Head />
-            <body>
+            <body className='w-full overflow-x-hidden'>
                 <Script id='theme-switcher' strategy='beforeInteractive'>
                     {`
                          if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
